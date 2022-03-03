@@ -51,7 +51,7 @@ public class LogsController {
 		return ResponseEntity.status(HttpStatus.CREATED).body(logsRepository.save(logs));
 	}
 	
-	@DeleteMapping("/{id}")
+	@DeleteMapping("resultados/{id}")
 	public void deleteLog(@PathVariable long id) {
 		
 		logsRepository.deleteById(id);

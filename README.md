@@ -3,11 +3,8 @@ O objetivo deste desafio é escrever uma aplicação Java para fazer upload  de 
 
 ### Detalhes do Back-End:
 - Definir o modelo de dados no MySQL ou PostgresSQL;
-- Definir serviços para a inserção em batch (usando o arquivo de logs 
-fornecido);
 - Definir serviços para a inserção de logs manuais (CRUD);
 - Implementar filtros ou pesquisas de logs;
-- (BÔNUS) Testes automatizados.
 ### Formato Log:
 - Data, IP, Request, Status, User Agent (delimitado por aspas duplas);
 O delimitador do arquivo de log é o caracter pipe (|);
